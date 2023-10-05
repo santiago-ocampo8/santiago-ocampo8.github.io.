@@ -8,6 +8,6 @@ function retornarFecha() {
 function retornarHora() {
     let fecha;
     fecha = new Date();
-    var cadena = fecha.getHours() + ':' + fecha.getMinutes() + ':' + fecha.getSeconds();
+    var cadena = fecha.getHours() + ':' + fecha.getMinutes();
     return cadena;
 }
